@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>@yield('title', 'mxbbs') - mxbbs</title>
+    <meta name="description" content="@yield('description', 'mxbbs 社区')" />
 
     <title>@yield('title', 'mxbbs')</title>
 
